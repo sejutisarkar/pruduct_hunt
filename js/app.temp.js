@@ -44,9 +44,6 @@ handleProductUpVote={this.handleProductUpVote}
 ));
     return (
       <div className="ui unstackable items">
-      <a onClick={this.reverseOrder} href='#'>
-        <i className='large caret up icon' /> Reverse Order
-      </a>
       { productComponents }
       </div>
   );
